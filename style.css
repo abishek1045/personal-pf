@@ -1,0 +1,172 @@
+@charset "utf-8";
+/*css document*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("https://img.freepik.com/free-vector/bright-background-with-dots_1055-3132.jpg?size=338&ext=jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+section{
+	width: 100%;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 5%; 
+}
+nav ul{
+	display: flex;
+}
+nav ul li a {
+	margin: 30px;
+	font-family:fantasy;
+	color:#505050;
+	font-size: 25px;
+	font-weight: 700;
+}
+.logo{
+	font-family:RoadTest;
+	color:#000000;
+	font-size:22px;
+}
+.active{
+	font-weight: bold;
+	color: #2d2a2a;
+}
+.text-container : nth-child(1){
+	font-family: fantasy;
+	font-weight: bold;
+	color: #bdbdbd;
+	font-size: 22px;
+
+}
+.text-container P : nth-child(2){
+	font-family: fantasy;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color:#1a1a1a;
+	font-size: 60px;
+}
+.text-container P : nth-child(3){
+	font-family:cursive;
+    color:#403e3e;
+    font-size: 30px;
+    line-height:30px;
+}
+.text-container p{
+	line-height: 0px;
+	margin:45px 0px 25px;
+}
+.text-container{
+	position: absolute;
+	left:13%
+	top:42%
+	transform: translate(-13%, -42%);
+	margin-bottom:0%;
+	 padding-bottom:0%;
+}
+.container{
+	height: auto;
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 5%;
+    padding-right:7%;
+    padding-left: 60%;
+    padding-bottom:5%;
+
+}
+.container img{
+	height:600px;
+	width:500px;
+	margin-bottom:0%;
+}
+
+.element-contact{
+	background-color:000508;
+	height: 20px;
+	font-weight: bold;
+	padding-top:30px;
+	padding-bottom:0%;
+	padding-right:10%; 
+	padding-left: 25%; 
+	font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-left: 35%;
+
+}
+h1{
+	width:100%;
+	font-size: 100px;
+	padding-top: 30%;
+	padding-bottom:0%;
+	padding-right:10%;
+	padding-left: 25%;
+	margin-bottom: 0%;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+h5{
+	font-size: 45px;
+	width :100%;
+	padding-top: 0%;
+	padding-bottom:0%;
+	padding-right:10%;
+	padding-left: 10%;
+	margin-top:10px;
+	margin-left:10px;
+	font-family: 'Josefin Sans', sans-serif; 
+}
+.element-about{
+	font-size:30px;
+	padding-top:0px;
+	margin: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+h4::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
+  padding-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
